@@ -53,4 +53,11 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'carrierwave'
+# uplaoder
+gem 'carrierwave'  
+
+# 前提需要先有 gem 'sass-rails'
+gem 'bootstrap-sass','3.3.7' 
+
+ # Bootstrap 會使用到 jQuery 這個函式庫
+gem 'jquery-rails'
