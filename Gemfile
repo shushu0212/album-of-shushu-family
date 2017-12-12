@@ -39,6 +39,13 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'sqlite3' 
+  # 開發和測試模式資料庫用sqlite3
+end
+
+group :production do
+  gem 'pg'
+  # 正式上線模式資料庫用PostgreSQL
 end
 
 group :development do
